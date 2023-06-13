@@ -1,7 +1,7 @@
 # pymongo_backup_AWS
 backup and restore a MongoDB database hosted on AWS using Python
 
-usage:
+Usage:
 
 export:
 
@@ -11,10 +11,10 @@ export:
   s3_prefix = "backup"
   s3_key = "backup/mydatabase_22220101120000.gz"
 
-Backup the database
+Backup the database:
 
   backup_mongo_aws(mongo_uri, db_name, s3_bucket, s3_prefix)
 
-Restore the database
+Restore the database:
 
   restore_mongo_aws(mongo_uri, db_name, s3_bucket, s3_key)
