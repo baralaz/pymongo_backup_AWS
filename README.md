@@ -4,7 +4,7 @@ The script connects to the MongoDB instance using the provided URI, performs the
 uploads the backup file to the specified S3 bucket, and appends the backup S3 key to the backup list file stored on S3.
 The script also provides a restore function that downloads the backup file from S3 and restores the database based on the documents in the file.
 Additionally, it includes a function to download the backup list file from S3 and display its contents.
-Uses an external json file, so you can have a different variable file for each enviroment.
+Uses an external json file, so you can have a different variable file for each environment.
 
 Libs:pymongo, boto3
 
