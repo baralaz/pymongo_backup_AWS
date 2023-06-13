@@ -1,2 +1,12 @@
 # pymongo_backup_AWS
 backup a MongoDB database hosted on AWS using Python
+
+##usage:
+
+export:
+mongo_uri = "mongodb://username:password@host:port"
+db_name = "mydatabase"
+s3_bucket = "your-s3-bucket"
+s3_prefix = "backup"
+
+pybackup_mongo_aws(mongo_uri, db_name, s3_bucket, s3_prefix)
