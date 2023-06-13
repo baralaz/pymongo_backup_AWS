@@ -5,11 +5,11 @@ Usage:
 
 export:
 
-  mongo_uri = "mongodb://username:password@host:port"
-  db_name = "mydatabase"
-  s3_bucket = "your-s3-bucket"
-  s3_prefix = "backup"
-  s3_key = "backup/mydatabase_22220101120000.gz"
+  'mongo_uri = "mongodb://username:password@host:port"'
+  'db_name = "mydatabase"'
+  's3_bucket = "your-s3-bucket"'
+  's3_prefix = "backup"'
+  's3_key = "backup/mydatabase_22220101120000.gz"'
 
 Backup the database:
 
