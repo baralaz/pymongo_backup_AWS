@@ -1,0 +1,7 @@
+{
+  "mongo_uri": "mongodb://username:password@host:port",
+  "db_name": "mydatabase",
+  "s3_bucket": "your-s3-bucket",
+  "s3_prefix": "backup",
+  "backup_list_key": "backup-list.txt"
+}
