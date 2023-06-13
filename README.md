@@ -11,8 +11,8 @@ Usage:
 
 Backup the database:
 
-	backup_mongo_aws(mongo_uri, db_name, s3_bucket, s3_prefix)
+	pybackup_mongo_aws(mongo_uri, db_name, s3_bucket, s3_prefix)
 
 Restore the database:
 
-	restore_mongo_aws(mongo_uri, db_name, s3_bucket, s3_key)
+	pyrestore_mongo_aws(mongo_uri, db_name, s3_bucket, s3_key)
